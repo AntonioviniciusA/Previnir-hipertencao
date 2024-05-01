@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+         <p>8</p>
+          <nav>
+           <a href="/Index.html">Inicio</a>
+           <a href="/formulario.html">Formulario</a>
+    </header>
+    <body>
+        <form action="/Resposta.php" method="get">
+            <h1>Sitomas de Pressão alta</h1>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" id="inome" placeholder="Digite seu Nome">
+            <label for="idade">Idade:</label>
+            <input type="number" name="idade" id="iidade" placeholder="Digite sua idade">
+            <label for="genero">Gênero:</label>
+            <select id="genero" name="genero">
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select>
+            <div class="linhapontilhada"></div>
+            <p>Você sentiu algum desses sintomas nas últimas 24 horas?</p>
+            <ul>
+                <li><input type="checkbox" id="dor_peito" name="sintomas" value="Dor ou desconforto no peito">
+                    <label for="dor_peito">Dor ou desconforto no peito</label></li>
+                <li><input type="checkbox" id="dor_irradiada" name="sintomas" value="Dor que se irradia para o braço esquerdo, pescoço, mandíbula, costas ou abdômen">
+                    <label for="dor_irradiada">Dor que se irradia para o braço <br>esquerdo, pescoço, mandíbula, costas ou abdômen</label></li>
+                <li><input type="checkbox" id="aperto_peito" name="sintomas" value="Sensação de aperto, compressão, peso ou queimação no peito">
+                    <label for="aperto_peito">Sensação de aperto, compressão, peso ou queimação no peito</label></li>
+                <li><input type="checkbox" id="dificuldade_respirar" name="sintomas" value="Dificuldade para respirar">
+                    <label for="dificuldade_respirar">Dificuldade para respirar</label></li>
+                <li><input type="checkbox" id="tontura_desmaio" name="sintomas" value="Tontura ou sensação de desmaio">
+                    <label for="tontura_desmaio">Tontura ou sensação de desmaio</label></li>
+                <li><input type="checkbox" id="nausea_vomito" name="sintomas" value="Náusea ou vômito">
+                    <label for="nausea_vomito">Náusea ou vômito</label></li>
+                <li><input type="checkbox" id="sudorese" name="sintomas" value="Sudorese fria ou profusa">
+                    <label for="sudorese">Sudorese fria ou profusa</label></li>
+                <li><input type="checkbox" id="palpitacoes" name="sintomas" value="Palpitações ou batimentos cardíacos irregulares">
+                    <label for="palpitacoes">Palpitações ou batimentos cardíacos irregulares</label></li>
+                <li><input type="checkbox" id="ansiedade" name="sintomas" value="Ansiedade ou sensação de pânico sem motivo aparente">
+                    <label for="ansiedade">Ansiedade ou sensação de pânico sem motivo aparente</label></li>
+            </ul>
+            <div class="linhapontilhada"></div>
+            <p>Você possui algum fator de risco conhecido para doenças cardíacas?</p>
+            <ul>
+                <li><input type="checkbox" id="hipertensao" name="fatores_risco" value="Hipertensão arterial">
+                    <label for="hipertensao">Hipertensão arterial</label></li>
+                <li><input type="checkbox" id="colesterol" name="fatores_risco" value="Colesterol alto">
+                    <label for="colesterol">Colesterol alto</label></li>
+                <li><input type="checkbox" id="diabetes" name="fatores_risco" value="Diabetes">
+                    <label for="diabetes">Diabetes</label></li>
+                <li><input type="checkbox" id="historico_familiar" name="fatores_risco" value="Histórico familiar de doenças cardíacas">
+                    <label for="historico_familiar">Histórico familiar de doenças cardíacas</label></li>
+                <li><input type="checkbox" id="tabagismo" name="fatores_risco" value="Tabagismo">
+                    <label for="tabagismo">Tabagismo</label></li>
+                <li><input type="checkbox" id="obesidade" name="fatores_risco" value="Obesidade">
+                    <label for="obesidade">Obesidade</label></li>
+                <li><input type="checkbox" id="sedentarismo" name="fatores_risco" value="Sedentarismo">
+                    <label for="sedentarismo">Sedentarismo</label></li>
+                <li><input type="checkbox" id="outros" name="fatores_risco" value="Outros">
+                    <label for="outros">Outros (especificar):</label>
+                    <input type="text" id="outros_texto" name="outros_texto">
+                </li>
+            </ul>
+        
+            <input type="submit" value="Enviar">
+        </form>
+    </body>
+    <div class="footer">
+        <footer>
+        <h4>PARA MAIS INFORMAÇÕES: <br>
+            EXEMPLODEEMAIL@GMAIL.COM</h4>   
+            
+            <div class="icone"><img class="icone" src="/img/Coraçãoicone.png" alt="" ><br><h5><i>www.exemplolink.com.br</i></h5></div>
+        <h4><b>CUIDAR DO CORAÇÃO
+            TAMBEM É SE AMAR!</b></h4>
+            <div class="cp"><sub>Copyright©</sub></div>
+            
+    </footer>
+</body>
+</html>
